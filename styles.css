@@ -24,3 +24,18 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+/* Specific styles for left-aligned elements */
+.left-align {
+    align-self: flex-start; /* Align this item to the left side of the container */
+    margin: 0; /* Ensure no extra margin */
+}
+
+.left-align-text {
+    text-align: left; /* Align text inside the element to the left */
+}
+
+/* Styles for centered text */
+.center-text {
+    text-align: center; /* Center the text within its container */
+}
