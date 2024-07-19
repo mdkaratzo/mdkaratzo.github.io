@@ -1,0 +1,26 @@
+/*styles.css */
+
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a font family for the entire page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for a container class */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style for images within the container */
+.container img {
+    max-width: 100%;
+    height: auto;
+}
